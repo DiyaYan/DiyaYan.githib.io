@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <meta name="viewport" content="width=device-width, user-scalable=no">
+<title>
+    Diya Yan's Portfolio
+</title>
+<link href="./style.css" type="text/css" rel="stylesheet">
+</head> 
+<body>
+    <main>
+        <header>
+          <h1 id="introduction">Welcome!</h1>
+        </header>
+        <figure>
+          <img id="selfie" src="selfie.jpg" width="200" height="200" alt="A photo of Diya."/>
+          <h1 id="name">Diya Yan</h1>
+          <figcaption id="picdescription">Hello! Nice to meet you.</figcaption>
+          </figure>
+        <article>
+          
+        </article>
+      </main>
+    <header>      
+        <nav class="topnav" id="portfolioTopnav"> 
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#accomplishments">Accomplishments</a>
+        <a href="#contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="openMenu()"><i class="fa fa-bars"></i></a>
+         </nav>    
+</header>
+
+<div id="aboutsection">
+   <!--About myself -->
+<h2 id="about" class="heading uppercase">About</h2>
+<p>I am a second-year master student in the <em>School of Engineering and Technology</em> at <strong>CQUniversity</strong>. My main research interest centres on <strong>construction safety science</strong> and <strong>site management</strong>. My master’s research investigates the antecedents of construction workers’ safety compliance and how to improve their safety performance by developing a framework about safety compliance in the Australian construction industry.I am a student member of the Australian Institute of Quantity Surveyors (AIQS) and the Royal Institution of Chartered Surveyors (RICS). I hold a general construction induction card (white card), which allows me to conduct regular site visit as my research requires. I gained a bachelors’ degree in construction management and quantity surveying from Bond University, that gives me a solid foundation of construction site management, digital design and intelligent construction, site hazard identification and prevention, BIM, and construction site risk management.  </p>
+</div>
+<br>
+<br>
+<h3 id="skills">Skills</h3>
+<!--About my skills -->
+<h4 id="skillslist1">Research Skills</h4>
+<list class="list">
+    <p>Create effective reports</p>
+    <p>Quantitative and Qualitative data collection</p>
+    <p>Critical thinking and analytical skills</p>
+    <p>Attention to detail</p>
+</li>
+<h4 id="skillslist2">Interpersonal Skills</h4>
+<list class="list">
+    <p>Effective communication</p>
+    <p>Problem-solving</p>
+    <p>Ability to work under pressure</p>
+    <p>Leadership and responsibility</p>
+    <p>Self-motivation</p> 
+</ul>
+<h4 id="skillslist3">Technical Skills</h4>
+<ul class="list">
+    <p>Project management</p>
+    <p>Data organization</p>
+    <p>Software proficiency</p>
+    <p>Programming language</p>
+  </ul>
+<div id="accomplishementssection">
+    <!--About my accomplishments -->
+<h2 id="accomplishments">Accomplishments</h2>
+<table>
+<tr>
+    <th scope="col">Publications</th>
+    <th scope="col">Awards</th>
+    <th scope="col">Presentations</th>
+  </tr>
+  <tr>
+    <td>Improving safety compliance of construction workers: a conceptual framework Yan, D., Zhao, X., & Kalutara, P. (2021). Improving safety compliance of construction workers: a conceptual framework. In I. Kamardeen, A. Mills, N. Mahmood, J. Thaheem, G. Karunasena, A. Sadick, . . . L. Abel (Eds.), Proceedings of the 44th AUBEA Conference: Construction Education - Live the Future (pp. 729-740). Geelong, Victoria: Deakin University. Retrieved from https://cloudstor.aarnet.edu.au/</td>
+    <td>TO BE ADDED</td>
+    <td>AUBEA, 2021</td>
+  </tr>
+</table>
+</div>
+<h3>Coding Examples</h3>
+<a href="quiz.html" target="_blank" id="quizlink">Thanks for reading my portfolio. This is an example of a quiz developed using HTML, JavaSctipt, and CSS. Please click this link to take the portfolio quiz!</a>
+<div id="contactsection">
+    <!--About my contacts -->
+<h2 id="contact" class="contactform">Contact</h2>
+<a href="https://orcid.org/0000-0001-8678-2792" target="_blank">
+<img src="orcid image.jpg" alt="ORCID Logo"/></a>
+<form>
+    <label for="name">*Name:</label>
+    <br>
+  <input type="text" name="name-text-field" id="name" required>
+  <br>
+  <br>
+  <label for="email">*Email:</label>
+    <br>
+  <input type="text" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+  <br>
+  <br>
+  <label for="mobile">Mobile (optional):</label>
+  <br>
+  <input type="tel" name="mobile" id="mobile" pattern=“[0-9] {10,16}”>
+  <br>
+  <br>
+  <label for="textarea">*Leave your message below:</label>
+  <br>
+  <textarea id="message" name="message" rows="5" cols="30" required>
+  </textarea>
+  <br>
+  <br>
+  <input type="submit">
+  </form>
+</div>
+<footer>
+    <p>Email me at diya.yan@cqumail.com</p>
+  </footer>
+  <script src="./nav.js"> </script>
+  </body>
+</html>
